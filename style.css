@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'Montserrat-Black';
+    src: url('assets/fonts/Montserrat-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('assets/fonts/Montserrat-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('assets/fonts/Montserrat-Regular.woff2') format('woff2'),
+         url('assets/fonts/Montserrat-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-Light';
+    src: url('assets/fonts/Montserrat-Light.woff2') format('woff2'),
+         url('assets/fonts/Montserrat-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+:root {
+    --color-green: rgba(10, 194, 183, 1);
+    --color-white: rgba(247, 247, 248, 1);
+
+    --1440: 100vw;
+    --505: 35.0694vw;
+    --448: 31.1111vw;
+    --315: 21.875vw;
+    --295: 20.4861vw;
+    --266: 18.4722vw;
+    --246: 17.0833vw;
+    --196: 13.6111vw;
+    --190: 13.1944vw;
+    --182: 12.6389vw;
+    --150: 10.4167vw;
+    --142: 9.8611vw;
+    --126: 8.75vw;
+    --105: 7.2917vw;
+    --100: 6.9444vw;
+    --85: 5.9028vw;
+    --77: 5.3472vw;
+    --72: 5vw;
+    --60: 4.1667vw;
+    --57: 3.9583vw;
+    --52: 3.6111vw;
+    --50: 3.4722vw;
+    --46: 3.1944vw;
+    --45: 3.125vw;
+    --42: 2.9167vw;
+    --40: 2.7778vw;
+    --36: 2.5vw;
+    --35: 2.4306vw;
+    --34: 2.3611vw;
+    --33: 2.2917vw;
+    --32: 2.2222vw;
+    --30: 2.0833vw;
+    --28: 1.9444vw;
+    --27: 1.875vw;
+    --26: 1.8056vw;
+    --25: 1.7361vw;
+    --22: 1.5278vw;
+    --20: 1.3889vw;
+    --19: 1.3194vw;
+    --18: 1.25vw;
+    --17: 1.1806vw;
+    --16: 1.1111vw;
+    --15: 1.0417vw;
+    --14: 0.9722vw;
+    --13: 0.9028vw;
+    --12: 0.8333vw;
+    --11: 0.7639vw;
+    --10: 0.6944vw;
+    --8: 0.5556vw;
+    --5: 0.3472vw;
+}
