@@ -223,6 +223,10 @@ body {
     justify-content: center;
 }
 
+.mrg-centered {
+    margin-inline: auto;
+}
+
 .link {
     text-decoration: none;
 }
@@ -443,3 +447,15 @@ body {
     background-image: url(assets/images/main/main-glr-item-5.png);
     background-position: right bottom;
 }
+
+/* Index Samples */
+
+.index-samples h2 {
+    margin-bottom: var(--30);
+    text-align: center;
+}
+
+.samples-grid-group {
+    margin-bottom: var(--30);
+}
+
