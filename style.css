@@ -179,6 +179,10 @@ body {
     margin-bottom: var(--20);
 }
 
+.mrg-btm-10 {
+    margin-bottom: var(--10);
+}
+
 .text-centered {
     text-align: center;
 }
@@ -547,4 +551,50 @@ body {
     font-family: 'Montserrat-Regular';
     color: var(--color-grey);
     line-height: var(--13);
+}
+
+/* Index footer */
+
+.footer-primary {
+    padding-block: var(--25);
+}
+
+.footer-flex-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ul-footer-btm {
+    display: flex;
+    align-items: center;
+    gap: var(--15);
+}
+
+.li-small {
+    font-size: var(--10);
+    text-transform: uppercase;
+    line-height: var(--12);
+    color: rgba(26, 26, 26, 0.5);
+}
+
+.li-small:first-of-type {
+    margin-right: var(--60);
+}
+
+.flex-item-top {
+    display: flex;
+    align-items: center;
+}
+
+.footer-primary .logo-wrapper {
+    margin-right: calc(var(--142) * 1.3);
+}
+
+.footer-primary .flex-item-right {
+    display: flex;
+    align-items: flex-end;
+}
+
+.footer-primary .nav-list-secondary {
+    align-self: flex-end;
 }
