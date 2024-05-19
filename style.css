@@ -288,7 +288,7 @@ body {
     height: var(--15);
 }
 
-/* Main */
+/* Index Main */
 
 .index-carousel-viewport {
     overflow: hidden;
@@ -343,7 +343,7 @@ body {
     width: calc(var(--505) * 1.1);
 }
 
-.bg-img {
+.bg-img-left {
     background-position: left;
     background-size: cover;
     background-repeat: no-repeat;
@@ -354,7 +354,7 @@ body {
     width: calc(var(--295) * 1.4);
 }
 
-/* Badges */
+/* Index Badges */
 
 .index-badges {
     background-color: rgba(247, 247, 248, 1);
@@ -378,4 +378,68 @@ body {
 
 .badge .paragraph {
     margin-top: var(--10);
+}
+
+/* Index Masonry */
+
+.masonry-grid-group {
+    width: 100%;
+    aspect-ratio: 2 / 1;
+    display: grid;
+    gap: var(--20);
+    grid-template-areas:
+        'top-left top-middle top-right'
+        'top-left center bottom-right'
+        'bottom-left bottom-left bottom-right';
+}
+
+.masonry-item {
+    display: block;
+    background-color: rgba(247, 247, 248, 1);
+    width: 100%;
+    border-radius: 15px;
+    padding: var(--40) var(--25);
+}
+
+.bg-img {
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* Masonry grid areas */
+
+.grid-area-top-left {
+    grid-area: top-left;
+    background-image: url(assets/images/main/main-glr-item-1.png);
+    background-position: left bottom;
+}
+
+.grid-area-top-middle {
+    grid-area: top-middle;
+    background-image: url(assets/images/main/main-glr-item-2.png);
+    background-position: right bottom;
+}
+
+.grid-area-top-right {
+    grid-area: top-right;
+    background-image: url(assets/images/main/main-glr-item-3.png);
+    background-position: right bottom;
+}
+
+.grid-area-center {
+    grid-area: center;
+    background-image: url(assets/images/main/main-glr-item-4.png);
+    background-position: right bottom;
+}
+
+.grid-area-bottom-right {
+    grid-area: bottom-right;
+    background-image: url(assets/images/main/main-glr-item-6.png);
+    background-position: right bottom;
+}
+
+.grid-area-bottom-left {
+    grid-area: bottom-left;
+    background-image: url(assets/images/main/main-glr-item-5.png);
+    background-position: right bottom;
 }
