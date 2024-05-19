@@ -13,6 +13,14 @@
 }
 
 @font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('assets/fonts/Montserrat-Medium.woff2') format('woff2'),
+         url('assets/fonts/Montserrat-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'Montserrat-Regular';
     src: url('assets/fonts/Montserrat-Regular.woff2') format('woff2'),
          url('assets/fonts/Montserrat-Regular.woff') format('woff');
@@ -94,7 +102,7 @@ body {
 
 .heading {
     font-weight: 500;
-    font-family: 'Montserrat-Bold';
+    font-family: 'Montserrat-Medium';
     color: var(--color-white);
 }
 
@@ -125,14 +133,14 @@ body {
 
 .card-title {
     font-size: var(--20);
-    font-weight: 500;
+    font-weight: 600;
     color: var(--color-black);
-    font-family: 'Montserrat-Bold';
+    font-family: 'Montserrat-Medium';
     line-height: var(--25);
 }
 
 .paragraph {
-    font-weight: 300;
+    font-weight: 400;
     font-family: 'Montserrat-Regular';
     color: var(--color-grey);
 }
@@ -191,6 +199,7 @@ body {
     border-radius: 20px;
     padding: 1em 2em;
     font-family: 'Montserrat-Regular';
+    cursor: pointer;
 }
 
 .btn-primary {
@@ -335,7 +344,7 @@ body {
 }
 
 .carousel-item-1 {
-    background-image: url(assets/images/main/main-preview-1.png);
+    background-image: url(assets/images/main/main-preview-1.jpg);
 }
 
 .carousel-item-2 {
@@ -501,4 +510,41 @@ body {
 
 .workshop-btn-group {
     gap: var(--20);
+}
+
+/* Webform */
+
+.webform-grid-group {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+}
+
+.bottom-form {
+    background-color: rgba(247, 247, 248, 1);
+    padding: var(--42) 0 var(--42) var(--85);
+    border-radius: 10px 0 0 10px;
+}
+
+.bottom-form p {
+    margin-block: var(--15) var(--22);
+}
+
+.form-input {
+    font-size: var(--10);
+    font-family: 'Montserrat-Regular';
+    color: var(--color-grey);
+    line-height: var(--13);
+    margin-bottom: var(--5);
+    padding: var(--10) var(--15);
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    display: block;
+}
+
+.form-input::placeholder {
+    font-size: var(--10);
+    font-family: 'Montserrat-Regular';
+    color: var(--color-grey);
+    line-height: var(--13);
 }
