@@ -115,8 +115,8 @@ body {
 }
 
 .heading-small {
-    line-height: var(--35);
-    font-size: var(--42);
+    line-height: var(--42);
+    font-size: var(--35);
 }
 
 .heading-black {
@@ -129,7 +129,6 @@ body {
     color: var(--color-black);
     font-family: 'Montserrat-Bold';
     line-height: var(--25);
-    width: 60%;
 }
 
 .paragraph {
@@ -162,6 +161,18 @@ body {
 
 .pb-small {
     padding-block: var(--46);
+}
+
+.mrg-btm-30 {
+    margin-bottom: var(--30);
+}
+
+.mrg-btm-20 {
+    margin-bottom: var(--20);
+}
+
+.text-centered {
+    text-align: center;
 }
 
 .grid-group-4 {
@@ -197,6 +208,18 @@ body {
 .btn-secondary {
     color: var(--color-grey);
     background-color: rgba(247, 247, 248, 1);
+}
+
+.btn-third {
+    color: var(--color-green);
+    background-color: var(--color-white);
+    border: 1.5px solid var(--color-green);
+}
+
+.btn-third:hover,
+.btn-third:focus {
+    color: var(--color-white);
+    background-color: var(--color-green);
 }
 
 .btn-small {
@@ -384,6 +407,10 @@ body {
     margin-top: var(--10);
 }
 
+.badge .card-title {
+    width: 60%;
+}
+
 /* Index Masonry */
 
 .masonry-grid-group {
@@ -400,7 +427,6 @@ body {
 .masonry-item {
     display: block;
     background-color: rgba(247, 247, 248, 1);
-    width: 100%;
     border-radius: 15px;
     padding: var(--40) var(--25);
 }
@@ -448,14 +474,31 @@ body {
     background-position: right bottom;
 }
 
-/* Index Samples */
+/* Index Workshops */
 
-.index-samples h2 {
-    margin-bottom: var(--30);
-    text-align: center;
+.index-workshops {
+    background-color: rgba(247, 247, 248, 1);
 }
 
-.samples-grid-group {
-    margin-bottom: var(--30);
+.index-workshops p {
+    width: calc(var(--315) * 1.5);
 }
 
+.workshops-grid-group {
+    gap: var(--20);
+    background-color: rgba(247, 247, 248, 1);
+}
+
+.workshop-grid-item {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.workshop-title-wrapper {
+    padding: var(--20) var(--20) var(--30);
+    width: 80%;
+}
+
+.workshop-btn-group {
+    gap: var(--20);
+}
