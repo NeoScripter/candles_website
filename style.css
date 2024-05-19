@@ -8,7 +8,7 @@
 @font-face {
     font-family: 'Montserrat-Bold';
     src: url('assets/fonts/Montserrat-Bold.woff2') format('woff2');
-    font-weight: 700;
+    font-weight: 600;
     font-style: normal;
 }
 
@@ -127,7 +127,9 @@ body {
     font-size: var(--20);
     font-weight: 500;
     color: var(--color-black);
+    font-family: 'Montserrat-Bold';
     line-height: var(--25);
+    width: 60%;
 }
 
 .paragraph {
@@ -155,12 +157,23 @@ body {
 }
 
 .pb-large {
-    padding-inline: var(--57);
+    padding-block: var(--57);
 }
 
 .pb-small {
-    padding-inline: var(--46);
+    padding-block: var(--46);
 }
+
+.grid-group-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-group-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
 
 .btn {
     color: var(--color-white);
@@ -339,4 +352,30 @@ body {
 .carousel-content p {
     margin-block: var(--20) var(--36);
     width: calc(var(--295) * 1.4);
+}
+
+/* Badges */
+
+.index-badges {
+    background-color: rgba(247, 247, 248, 1);
+}
+
+.badge-grid-group {
+    gap: var(--20);
+    background-color: rgba(247, 247, 248, 1);
+}
+
+.badge {
+    padding: var(--15) var(--30);
+    background-color: #fff;
+}
+
+.badge-svg {
+    width: var(--40);
+    height: var(--40);
+    margin-bottom: var(--77);
+}
+
+.badge .paragraph {
+    margin-top: var(--10);
 }
