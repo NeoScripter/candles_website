@@ -893,18 +893,55 @@ form.flex-item-right {
     gap: var(--20);
 }
 
-.wk-desc-grid-item-left h2 {
-    width: 80%;
+.wk-flex-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.wk-desc-grid-item-right p {
-    width: 60%;
-    margin-top: var(--10);
-    margin-bottom: var(--57);
+.wk-2-heading {
+    flex-basis: calc(var(--315) * 3.5);
+    margin-right: var(--60);
+}
+
+.wk-1-heading {
+    flex-basis: calc(var(--315) * 2.5);
+    margin-right: var(--60);
+}
+
+.wk-flex-group .paragraph-large {
+    flex-basis: 50%;
+    margin-right: var(--60);
 }
 
 .wk-desc-img {
     border-radius: 10px;
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+}
+
+.wk-flex-sbgroup {
+    display: flex;
+    align-items: flex-start;
+    border-radius: 10px;
+    background-color: rgba(247, 247, 248, 1);
+    padding: var(--32) var(--46);
+    gap: var(--20);
+}
+
+.wk-sbgroup-content h4 {
+    margin-bottom: var(--15);
+}
+
+.wk-sbgroup-step {
+    width: var(--40);
+    height: var(--40);
+    border-radius: 50%;
+    background-color: var(--color-green);
+    font-size: var(--14);
+    color: #fff;
+    flex-shrink: 0;
 }
 
 /* Contacts */
