@@ -197,6 +197,10 @@ body {
     grid-template-columns: repeat(3, 1fr);
 }
 
+.grid-group-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
 
 .btn {
     color: var(--color-white);
@@ -881,6 +885,26 @@ form.flex-item-right {
     padding: var(--20);
     background-color: #fff;
     border-radius: 0 0 10px 10px;
+}
+
+/* Workshop Description */
+
+.workshop-desc-wrapper {
+    gap: var(--20);
+}
+
+.wk-desc-grid-item-left h2 {
+    width: 80%;
+}
+
+.wk-desc-grid-item-right p {
+    width: 60%;
+    margin-top: var(--10);
+    margin-bottom: var(--57);
+}
+
+.wk-desc-img {
+    border-radius: 10px;
 }
 
 /* Contacts */
