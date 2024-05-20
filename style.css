@@ -553,6 +553,11 @@ body {
     line-height: var(--13);
 }
 
+.form-input:hover,
+.form-input:focus {
+    outline: 1px solid var(--color-green);
+}
+
 /* Index Footer */
 
 .footer-primary {
@@ -700,6 +705,11 @@ form.flex-item-right {
     font-family: 'Montserrat-Regular';
     color: var(--color-white);
     line-height: var(--13);
+}
+
+.form-center-input:hover,
+.form-center-input:focus {
+    outline: 1px solid white;
 }
 
 .btn-four {
