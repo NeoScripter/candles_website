@@ -804,3 +804,71 @@ form.flex-item-right {
 .catalog-item-img {
     object-fit: contain;
 }
+
+/* Workshops Preview */
+
+.workshop-preview {
+    background-color: rgba(247, 247, 248, 1);
+    z-index: -10;
+}
+
+.workshop-preview-wrapper {
+    padding: var(--42) var(--85) var(--42) var(--85);
+    background: linear-gradient(180deg, #ECEFEE 0%, #EAEAEA 41.27%, #DFE1E0 100%);
+    position: relative;
+    border-radius: 15px;
+}
+
+.workshop-preview-wrapper::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(assets/images/workshops/preview.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 2;
+    border-radius: 15px;
+}
+
+.workshop-preview-wrapper h2 {
+    width: calc(var(--315) * 1.5);
+    color: var(--color-black);
+}
+
+.workshop-preview-wrapper p {
+    width: calc(var(--315) * 1.3);
+    color: var(--color-grey);
+}
+
+/* Workshop Demo */
+
+.workshop-demo {
+    background-color: rgba(247, 247, 248, 1);
+}
+
+.workshop-demo p {
+    width: 90%;
+}
+
+.orders-colletion {
+    background-color: rgba(247, 247, 248, 1);
+}
+
+.workshop-grid-group {
+    gap: var(--20);
+}
+
+.workshop-grid-item {
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.workshop-grid-item-content {
+    padding: var(--20);
+    background-color: #fff;
+    border-radius: 0 0 10px 10px;
+}
