@@ -913,18 +913,28 @@ form.flex-item-right {
     justify-content: space-between;
 }
 
-.wk-2-heading {
-    flex-basis: calc(var(--315) * 3.5);
-    margin-right: var(--60);
-}
-
 .wk-1-heading {
     flex-basis: calc(var(--315) * 2.5);
     margin-right: var(--60);
 }
 
+.wk-2-heading {
+    flex-basis: calc(var(--315) * 3.5);
+    margin-right: var(--60);
+}
+
+.wk-3-heading {
+    flex-basis: calc(var(--315) * 4);
+    margin-right: var(--60);
+}
+
 .wk-flex-group .paragraph-large {
     flex-basis: 50%;
+    margin-right: var(--60);
+}
+
+.wk-flex-group .wk-3-paragraph {
+    flex-basis: 60%;
     margin-right: var(--60);
 }
 
