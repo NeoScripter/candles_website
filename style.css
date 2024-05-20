@@ -442,6 +442,15 @@ body {
     background-color: rgba(247, 247, 248, 1);
     border-radius: 15px;
     padding: var(--40) var(--25);
+    position: relative;
+}
+
+.masonry-link {
+    position: absolute;
+    width: var(--50);
+    height: var(--50);
+    top: var(--12);
+    right: var(--12);
 }
 
 .bg-img {
@@ -802,7 +811,8 @@ form.flex-item-right {
 }
 
 .catalog-item-img {
-    object-fit: contain;
+    object-fit: cover;
+    height: var(--182);
 }
 
 /* Workshops Preview */
@@ -872,3 +882,6 @@ form.flex-item-right {
     background-color: #fff;
     border-radius: 0 0 10px 10px;
 }
+
+/* Contacts */
+
