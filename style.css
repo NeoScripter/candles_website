@@ -176,6 +176,14 @@ body {
     padding-block: var(--46);
 }
 
+.pt-top-large {
+    padding-top: var(--57);
+} 
+
+.pt-top-small {
+    padding-top: var(--46);
+} 
+
 .mrg-btm-30 {
     margin-bottom: var(--30);
 }
@@ -209,7 +217,7 @@ body {
 
 .btn {
     color: var(--color-white);
-    border-radius: 20px;
+    border-radius: var(--15);
     padding: 1em 2em;
     font-family: 'Montserrat-Regular';
     cursor: pointer;
@@ -1029,4 +1037,30 @@ form.flex-item-right {
 .cnts-svg-phone {
     width: var(--42);
     height: var(--42);
+}
+
+/* Registration Page */
+
+.main-registration {
+    min-height: 80vh;
+    background-image: url(assets/images/registration/reg-blurred.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    gap: var(--20);
+}
+
+.reg-form-wrapper {
+    background-color: #fff;
+    border-radius: var(--15);
+    padding: var(--27) var(--25);
+}
+
+.reg-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.reg-form input {
+    background-color: rgba(247, 247, 248, 1);
 }

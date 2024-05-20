@@ -33,40 +33,27 @@
             </div>
         </div>
     </header>
-    <main class="main">
-        <section class="contacts centering pt-top-small">
-            <div class="contacts-wrapper flex">
-                <div class="cnts-left-flex-item">
-                    <h2 class="heading heading-large heading-black mrg-btm-30">Звоните прямо сейчас</h2>
-                    <p class="paragraph paragraph-large">И наш дружелюбный и высококвалифицированный специалист поможет оформить заказ и ответит на все Ваши вопросы. Или заполните «форму обратной связи» и мы свяжемся с Вами максимально быстро</p>
-                </div>
-                <div class="cnts-right-flex-item">
-                    <div class="cnts-flex-sb-top">
-                        <div class="cnts-flex-sb-top-left">
-                            <p class="paragraph paragraph-large mrg-btm-10">Адрес</p>
-                            <div class="cnts-flex-sb-small">
-                                <img src="assets/svgs/location-svg.svg" alt="location" class="cnts-svg-location">
-                                <p class="paragraph paragraph-large heading-black">123456, г. Москва, Коломенская д. 8, строение 1</p>
-                            </div>
-                        </div>
-                        <div class="cnts-flex-sb-top-right">
-                            <p class="paragraph paragraph-large mrg-btm-10">Электронная почта</p>
-                            <div class="cnts-flex-sb-small">
-                                <img src="assets/svgs/email-svg.svg" alt="email" class="cnts-svg-email">
-                                <p class="paragraph paragraph-large heading-black">example@mail.ru</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="cnts-flex-sb-btm">
-                        <p class="paragraph paragraph-large mrg-btm-10">Телефон</p>
-                        <div class="cnts-flex-sb-large">
-                            <img src="assets/svgs/phone-svg.svg" alt="phone" class="cnts-svg-phone">
-                            <p class="heading heading-medium heading-black">+7 (999) 999-99-99</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <main class="main main-registration flex-centered">
+        <div class="reg-signup reg-form-wrapper">
+            <h3 class="card-title mrg-btm-10">Зарегистрируйтесь</h3>
+            <p class="paragraph paragraph-small mrg-btm-10">Чтобы совершать покупки</p>
+            <form action="" method="post" class="signup-form reg-form">
+                <input type="text" name="uid" placeholder="Имя" class="form-input">
+                <input type="password" name="pwd" placeholder="Пароль" class="form-input">
+                <input type="password" name="pwdrepeat" placeholder="Повторите пароль" class="form-input">
+                <input type="email" name="email" placeholder="Емаил" class="form-input">
+                <button type="submit" name="submit" class="submit-btn btn btn-primary btn-small">Зарегистрироваться</button>
+            </form>
+        </div>
+        <div class="reg-login reg-form-wrapper">
+            <h3 class="card-title mrg-btm-10">Войти</h3>
+            <p class="paragraph paragraph-small mrg-btm-10">Нет аккаунта? Создайте учетную запись!</p>
+            <form action="" method="post" class="login-form reg-form">
+                <input type="text" name="uid" placeholder="Имя" class="form-input">
+                <input type="password" name="pwd" placeholder="Пароль" class="form-input">
+                <button type="submit" name="submit" class="submit-btn btn btn-primary btn-small">Войти</button>
+            </form>
+        </div>
     </main>
     <footer class="footer footer-primary centering">
         <div class="footer-flex-group">
